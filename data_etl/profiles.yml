@@ -1,0 +1,7 @@
+data_etl:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: './output/transformed_date.db'
+      schema: 'main'
